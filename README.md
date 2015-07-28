@@ -1,8 +1,11 @@
 
-<div style="text-align:center">
-  <img src="screenshots/tagtypes-logo.png"/>
+<p align="center">
+  <img alt="tagtypes - for ghost" width="600" src="screenshots/tagtypes-logo.png"/>
+</p>
+
+<p align="center">
   selective tagging & post types
-</div>
+</p>
 ---
 ### installation
 ### settings
