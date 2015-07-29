@@ -6,6 +6,7 @@
 <p align="center">
   selective tagging & post types
 </p>
+
 ---
 if you've seen a bug or think that tagtypes could be better in any way, [create a new issue](https://github.com/DanielTamkin/Evergreen/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands).
 ### What is it?
@@ -22,4 +23,13 @@ tagtypes can be used in three ways, you can use it to ommit some posts,
 - tagtypes is **not** a ghost theme.
 - you dont need to be experienced in handlebars to reek tagtypes powers.
 - if used right, tagtypes can be super powerful for your next theme.
-- if you think tagtypes is right for you, please add the little logo below to spread the word.
+
+
+---
+<p align="center">
+  if you already use tagtypes, or in the process of developing a theme built with it,
+  tag on this cool looking graphic to spread the word.
+</p>
+<p align="center">
+  <img alt="tagtypes - for ghost" width="400" src="screenshots/tagtypes-builtwith.png"/>
+</p>
