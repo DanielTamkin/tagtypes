@@ -1,6 +1,15 @@
 {{! add your loop template here}}
-{{#foreach posts}}
-  {{! when ready to show the tags, put this partial in.}}
-  {{> "tagtypes-loop"}}
+{{! show all posts, other then some that you specified}}
+  {{#foreach posts}}
+    {{! when ready to show the tags, put this partial in.}}
+    {{> "tt-loop"}}
 
-{{/foreach}}
+  {{/foreach}}
+{{! show only posts that you want shown}}
+  {{#foreach posts}}
+    {{#has tag="!other"}}
+      {{! show the post}}
+    {{else}}
+      {{! dont show anything}}
+    {{/has}}
+  {{/foreach}}

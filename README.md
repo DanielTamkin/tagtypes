@@ -8,9 +8,18 @@
 </p>
 ---
 if you've seen a bug or think that tagtypes could be better in any way, [create a new issue](https://github.com/DanielTamkin/Evergreen/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands).
-### installation
-  1. clone tagtypes to your theme your working on
-  2. edit tagtypes how you'd like, using the guidlines below.
-### settings / guidlines
-  
-### how does it work?
+### What is it?
+ tagtypes is my solution to the very simple problem with ghost: "where the heck are post types?" you see it in almost every other CMS, wordpress is a great example. Sure ghost is "a blogging platform", but maybe *I* want to have the power to change my bland old looking post, to something diffrent... tagtypes does just that.
+### Installation
+ 1. clone tagtypes to your theme your working on
+ 2. drag all the `partials` for tagtypes into your `partials` folder
+ 3. edit tagtypes how you'd like, using the guidelines below.
+
+### guidelines
+tagtypes can be used in three ways, you can use it to ommit some posts,
+
+##### by the way...
+- tagtypes is **not** a ghost theme.
+- you dont need to be experienced in handlebars to reek tagtypes powers.
+- if used right, tagtypes can be super powerful for your next theme.
+- if you think tagtypes is right for you, please add the little logo below to spread the word.
