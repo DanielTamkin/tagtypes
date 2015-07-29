@@ -1,3 +1,7 @@
 {{#foreach posts}}
-  {{> "loop-default"}}
+  {{#has tag="!other"}}
+    {{> "loop-other"}}
+  {{else}}
+    {{> "loop-default"}}
+  {{/has}}
 {{/foreach}}
