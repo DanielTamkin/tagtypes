@@ -1,6 +1,6 @@
 {{#foreach posts}}
   {{#has tag="!other"}}
-    {{! show the post}}
+    {{> "loop-other"}}
   {{else}}
     {{! dont show anything}}
   {{/has}}
