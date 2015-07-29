@@ -1,15 +1,13 @@
 {{! add your loop template here}}
-{{! show all posts, other then some that you specified}}
+
+{{! show all posts, plus the ones tagged with tagtypes, but dont show the tag code.
+    ps. (this is good to do for any post, it would look pretty ugly showing !something)
+}}
   {{#foreach posts}}
-    {{! when ready to show the tags, put this partial in.}}
+    <h1>{{title}}</h1>
+    <p>{{excerpt words="26"}}</p>
     {{> "tt-loop"}}
 
   {{/foreach}}
-{{! show only posts that you want shown}}
-  {{#foreach posts}}
-    {{#has tag="!other"}}
-      {{! show the post}}
-    {{else}}
-      {{! dont show anything}}
-    {{/has}}
-  {{/foreach}}
+{{! show only posts that you want to show}}
+  {{> "tt-ommit"}}
