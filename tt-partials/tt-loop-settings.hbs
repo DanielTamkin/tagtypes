@@ -1,0 +1,19 @@
+{{! loop styles here}}
+{{#if seporator}}
+  {{#has tag="!other"}}
+    {{! dont show anything.}}
+  {{else}}
+    {{#if tags}}
+      {{#foreach tags}}
+        {{! style how you would like to show the tags}}
+        {{../seporator}} {{name}}
+      {{/foreach}}
+    {{/if}}
+  {{/has}}
+{{else}}
+  {{#has tag="!other"}}
+      {{> "tt-loop-other"}}
+  {{else}}
+    {{> "tt-loop-default"}}
+  {{/has}}
+{{/if}}
