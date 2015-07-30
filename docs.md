@@ -1,6 +1,31 @@
 ## `tt-loop`
-description
+discription
+
+style files: `somethingelse.hbs`
+
+used in: `something.hbs`
 ```
-syntax
+{{> "tt-loop"}}
+{{> "tt-loop" omit="!other"}}
+{{> "tt-loop" latest="!other"}}
 ```
-places used: `something.hbs`
+
+## `tt-tag`
+discription
+
+style files: `somethingelse.hbs`
+
+used in: `something.hbs`
+```
+{{> "tt-tag"}}
+```
+
+## `tt-post`
+discription
+
+style files: `tt-post-default.hbs`,`tt-post-somethingelse.hbs`
+
+used in: `post.hbs`
+```
+{{> "tt-post"}}
+```
