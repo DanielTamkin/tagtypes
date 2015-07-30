@@ -1,0 +1,10 @@
+{{#has tag="!other"}}
+  {{! dont show anything.}}
+{{else}}
+  {{#if seporator}}
+    {{#foreach tags}}
+      {{! style how you would like to show the tags}}
+       {{name}} {{../seporator}}
+    {{/foreach}}
+  {{/if}}
+{{/has}}
