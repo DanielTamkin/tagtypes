@@ -10,7 +10,8 @@
 ---
 if you've seen a bug or think that tagtypes could be better in any way, [create a new issue](https://github.com/DanielTamkin/Evergreen/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands).
 ### What is it?
- tagtypes is my solution to the very simple problem with ghost: "where the heck are post types?" you see it in almost every other CMS, wordpress is a great example. Sure ghost is "a blogging platform", but maybe *I* want to have the power to change my bland old looking post, to something diffrent... tagtypes does just that.
+Tagtypes is a way to introduce different styled posts, loops and tags for ghost. All determined by the `tag` variable.
+
 ### Installation
  1. clone tagtypes to your theme your working on
  2. drag all the `partials` for tagtypes into your `partials` folder
