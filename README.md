@@ -15,7 +15,7 @@ Tagtypes is a way to introduce different styled posts, loops and tags for ghost.
 ### Installation
  1. clone tagtypes to your theme your working on
  2. drag all the `partials` for tagtypes into your `partials` folder
- 3. edit tagtypes how you'd like, using the guidelines below.
+ 3. edit tagtypes how you'd like, using the [Documentation](https://github.com/DanielTamkin/tagtypes/wiki).
 ---
 <p align="center">
   if you already use tagtypes, or in the process of developing a theme built with it,
