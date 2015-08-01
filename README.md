@@ -8,6 +8,9 @@
 </p>
 
 ---
+<p>
+  <a href="https://github.com/DanielTamkin/tagtypes/wiki">Documentation</a>
+</p>
 if you've seen a bug or think that tagtypes could be better in any way, [create a new issue](https://github.com/DanielTamkin/Evergreen/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands).
 ### What is it?
 Tagtypes is a way to introduce different styled posts, loops and tags for ghost. All determined by the `tag` variable.
