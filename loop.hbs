@@ -7,4 +7,5 @@
 {{! show only posts that you want to show
     (currently set to show just !other)
 }}
-  {{> "tt-ommit"}}
+  {{> "tt-loop" show="!other"}} {{! what to show}}
+  {{> "tt-loop" ommit="!other"}} {{! what to ommit}}
