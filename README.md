@@ -27,5 +27,7 @@ Tagtypes is a way to introduce different styled posts, loops and tags for ghost.
   tag on this cool looking graphic to spread the word.
 </p>
 <p align="center">
-  <img alt="tagtypes - for ghost" width="400" src="screenshots/tagtypes-builtwith.png"/>
+  <a href="https://github.com/DanielTamkin/tagtypes">
+   <img alt="tagtypes - for ghost" width="400" src="https://github.com/DanielTamkin/tagtypes/blob/master/screenshots/tagtypes-builtwith.png"/>
+ </a>
 </p>
